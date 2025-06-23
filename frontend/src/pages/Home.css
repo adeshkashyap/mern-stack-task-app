@@ -1,0 +1,76 @@
+.home-dashboard-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e3f0ff 0%, #fafcff 100%);
+  padding: 0;
+}
+
+.home-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(25, 118, 210, 0.10);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #1976d2;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn {
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background: #b71c1c;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 32px;
+}
+
+.dashboard-left,
+.dashboard-right {
+  flex: 1;
+  min-width: 320px;
+}
+
+@media (max-width: 900px) {
+  .dashboard-content {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .home-container {
+    padding: 14px 2vw;
+  }
+  .home-header h1 {
+    font-size: 1.3rem;
+  }
+}
