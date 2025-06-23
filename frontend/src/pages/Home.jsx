@@ -108,7 +108,7 @@ const Home = () => {
             <div className="home-container">
                 <div className="home-header">
                     <h1>
-                        <span role="img" aria-label="tasks" style={{ marginRight: 8 }}>🗂️</span>
+                        <span role="img" aria-label="tasks" style={{ marginRight: 8 }}></span>
                         Task Management Dashboard
                     </h1>
                     <div>
