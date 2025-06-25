@@ -11,7 +11,6 @@ This is a task management system built using the MERN stack (MongoDB, Express, R
 
 ## Project Structure
 
-```
 task-manager-mern
 ├── backend
 │   ├── src
